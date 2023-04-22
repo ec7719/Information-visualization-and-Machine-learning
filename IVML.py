@@ -20,7 +20,6 @@ background-size: cover;
 '''
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
-columns1,columns2,columns3=st.columns(3)
 st.header("This is a IV and ML visualization website ")
 st.write("In this website, we can visualize the files which are in csv format and analyze them using histogram, lineplot or 2 and 3 dimensional plot")
 st.write("We can use ML to analyze the file using ml models")
