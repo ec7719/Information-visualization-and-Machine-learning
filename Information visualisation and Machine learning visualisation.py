@@ -21,7 +21,7 @@ background-size: cover;
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
 columns1,columns2,columns3=st.columns(3)
-st.header("This is a anime visualization app ")
+st.header("This is a Information and Machine learning  visualization app ")
 st.write("In this website, we can visualize the files which are in csv format and analyze them using histogram, lineplot or 2 and 3 dimensional plot")
 upload=st.file_uploader("Upload the file which u want to display")
 if upload:
